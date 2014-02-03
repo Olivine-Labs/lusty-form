@@ -1,5 +1,5 @@
 package = "lusty-form"
-version = "0.1-2"
+version = "0.1-3"
 source = {
   url = "https://github.com/Olivine-Labs/lusty-form/archive/v0.1.tar.gz",
   dir = "lusty-form-0.1"
@@ -21,6 +21,5 @@ build = {
   type = "builtin",
   modules = {
     ["lusty-form.input.form"]  = "src/input/form.lua",
-    ["lusty-form.util.http"]  = "src/util/http.lua",
   }
 }
