@@ -1,8 +1,6 @@
-local http = require 'lusty-form.util.http'
-
 return {
   handler = function(context)
-    context.input = http.form.decode(context.request.body)
+    context.input = context.request.params
   end,
 
   options = {
